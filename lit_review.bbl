@@ -1,9 +1,15 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andreotti et~al.(2002)Andreotti, Claudin, and Douady]{Andreotti02}
+B.~Andreotti, P.~Claudin, and S.~Douady.
+\newblock Selection of dune shapes and velocities {P}art 1: {D}ynamics of sand,
+  wind and barchans.
+\newblock \emph{Eur. {P}hys. {J}. {B}}, 28:\penalty0 321--339, 2002.
 
 \bibitem[Andreotti et~al.(2012)Andreotti, Claudin, Devauchell, Dur{\'a}n, and
   Fourri{\`e}re]{Andreotti12}
@@ -11,10 +17,37 @@ B.~Andreotti, P.~Claudin, O.~Devauchell, O.~Dur{\'a}n, and A.~Fourri{\`e}re.
 \newblock Bedforms in a turbulent stream: ripples, chevrons and antidunes.
 \newblock \emph{J. {F}luid {M}ech.}, 690:\penalty0 94--128, 2012.
 
+\bibitem[Bagnold(1941)]{Bagnold41}
+R.~A. Bagnold.
+\newblock \emph{The physics of blown sand and desert dunes}.
+\newblock Methuen {\&} {C}o., first edition, 1941.
+
 \bibitem[Barnard et~al.(2006)Barnard, Haynes, Rubin, and Kvitek]{Barnard06}
 P.~L. Barnard, D.~M. Haynes, D.~M. Rubin, and R.~G. Kvitek.
 \newblock Giant {S}and {W}aves at the {M}outh of {S}an {F}rancisco {B}ay.
 \newblock \emph{Eos}, 87, 2006.
+
+\bibitem[Charru and Franklin(2012)]{Charru12}
+F.~Charru and E.~M. Franklin.
+\newblock Subaqueous barchan dunes in turbulent shear flow. {P}art 2. {F}luid
+  flow.
+\newblock \emph{J. {F}luid {M}ech.}, 694:\penalty0 131--154, 2012.
+
+\bibitem[Charru and Mouilleron-Arnould(2002)]{Charru02}
+F.~Charru and H.~Mouilleron-Arnould.
+\newblock Instability of a bed of particles sheared by a viscous flow.
+\newblock \emph{J. {F}luid {M}ech.}, 452:\penalty0 303--323, 2002.
+
+\bibitem[Charru et~al.(2004)Charru, Mouilleron, and Eiff]{Charru04}
+F.~Charru, H.~Mouilleron, and O.~Eiff.
+\newblock Erosion and deposition of particles on a bed sheared by a viscous
+  flow.
+\newblock \emph{J. {F}luid {M}ech.}, 519:\penalty0 55--80, 2004.
+
+\bibitem[Charru et~al.(2013)Charru, Andreotti, and Claudin]{Charru13}
+F.~Charru, B.~Andreotti, and P.~Claudin.
+\newblock Sand {R}ipples and {D}unes.
+\newblock \emph{Annu. {R}ev. {F}luid. {M}ech.}, 45:\penalty0 469--493, 2013.
 
 \bibitem[Dur{\'a}n et~al.(2011)Dur{\'a}n, Sch{\"w}ammle, Lind, and
   Herrmann]{Duran11}
@@ -22,11 +55,49 @@ O.~Dur{\'a}n, V.~Sch{\"w}ammle, P.~G. Lind, and H.~J. Herrmann.
 \newblock Size distribution and structure of {B}archan dune fields.
 \newblock \emph{Nonlin. {P}rocesses {G}eophys.}, 18:\penalty0 455--467, 2011.
 
+\bibitem[Franklin(2015)]{Franklin15}
+E.~M. Franklin.
+\newblock Formation of sand ripples under a turbulent liquid flow.
+\newblock \emph{Appl. {M}ath. {M}odel.}, 39:\penalty0 7390--7400, 2015.
+
+\bibitem[Franklin and Charru(2011)]{Franklin11}
+E.~M. Franklin and F.~Charru.
+\newblock Subaqueous barchan dunes in turbulent shear flow. {P}art 1. {D}une
+  motion.
+\newblock \emph{J. {F}luid {M}ech.}, 675:\penalty0 199--222, 2011.
+
 \bibitem[Gao et~al.(2015)Gao, Narteau, and Rozier]{Gao15}
 X.~Gao, C.~Narteau, and O.~Rozier.
 \newblock Development and steady states of transverse dunes: {A} numerical
   analysis of dune pattern coarsening and giant dunes.
 \newblock \emph{J. {G}eophys. {R}es. {E}arth {S}urf.}, 120:\penalty0
   2200--2219, 2015.
+
+\bibitem[Kroy et~al.(2002)Kroy, Sauermann, and Herrmann]{Kroy02}
+K.~Kroy, G.~Sauermann, and H.~J. Herrmann.
+\newblock Minimal model for aeolian sand dunes.
+\newblock \emph{Phys. {R}ev. {E}}, 66, 2002.
+
+\bibitem[Langlois and Valance(2007)]{Langlois07}
+V.~Langlois and A.~Valance.
+\newblock Initiation and evolution of current ripples on a flat sand bed under
+  turbulent water flow.
+\newblock \emph{Eur. {P}hys. {J}. {E}.}, 22:\penalty0 201--208, 2007.
+
+\bibitem[Mouilleron et~al.(2009)Mouilleron, Charru, and Eiff]{Mouilleron09}
+H.~Mouilleron, F.~Charru, and O.~Eiff.
+\newblock Inside the moving layer of a sheared granular bed.
+\newblock \emph{J. {F}luid {M}ech.}, 628:\penalty0 229--239, 2009.
+
+\bibitem[Owen(1964)]{Owen64}
+P.~R. Owen.
+\newblock Saltation of uniform grains in air.
+\newblock \emph{J. {F}luid. {M}ech.}, 20:\penalty0 225--242, 1964.
+
+\bibitem[Wierschem et~al.(2008)Wierschem, Groh, Rehberg, Aksel, and
+  Kruelle]{Wierschem08}
+A.~Wierschem, C.~Groh, I.~Rehberg, N.~Aksel, and C.~A. Kruelle.
+\newblock Ripple formation in weakly turbulent flow.
+\newblock \emph{Eur. {P}hys. {J}. {E}}, 25:\penalty0 213--221, 2008.
 
 \end{thebibliography}

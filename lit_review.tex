@@ -76,8 +76,13 @@
 \section{Introduction}
 \label{sec:intro}
 
-\subsection{Types of sedimentary bedforms}
-\label{subsec:sed_bed}
+\section{Fluid flow}
+\label{sec:fluid}
+
+The first consideration when considering sedimentary processes is the driving flow. Although it is possible for sediment transport to occur in laminar flow \citep{Charru02, Charru04, Mouilleron09}, the majority of research into the dynamics of ripples and dunes has considered turbulent conditions \citep{Andreotti02, Kroy02, Langlois07, Wierschem08, Franklin11, Charru12, Andreotti12, Franklin15}, a reflection of the fact that these are relevant to the majority of natural systems.
+
+\section{Types of sedimentary bedforms}
+\label{sec:sed_bed}
 
 There are a variety of different types of sedimentary bedforms found in nature, with the diversity reflecting the hugely variable conditions under which erosion and sedimentation processes occur. Most generally, there are two types of environment in which bedforms can be found: subaerial; and subaqueous. Subaerial bedforms result from the flow of air over a granular medium, such as a desert, beach or a volcanic ash deposit. Subaqueous bedforms are created by the action of water, and can be found on river-beds, shallow coastel regions, or deeper continental shelves. Within this hierarchy, further variability in shape and size of bedform originates from spatial and temporal variations in flow-speed, flow-depth, particle size, particle density and local topography. Examples of different types of bedforms are shown in figure~\ref{fig:bedforms}.
 
@@ -113,9 +118,28 @@ There are a variety of different types of sedimentary bedforms found in nature, 
     \caption{Examples of bedforms. a) A field of barchan dunes from Morocco. \citep{Duran11}. b) Transverse dune field in the East Taklamakan desert, China \citep{Gao15}. Subaqueous ripples in Zion National Park, USA \citep{Andreotti12}. d) Large subaqueous dunes in San Francisco Bay, USA \citep{Barnard06}.\label{fig:bedforms}}
 \end{figure}
 
-\subsection{Modes of sediment transport}
-\label{subsec:sed_trans}
+\section{Modes of sediment transport}
+\label{sec:sed_trans}
 
+In order for an overlying fluid to displace any sediment, it is neccessary for the shear stress exerted on the bed surface to be sufficient to lift a particle up and over its neighbours. Hence, the lift force provided by the flow must be sufficient to overcome gravity. This balance is quantified through the Shields number
+
+\begin{equation}
+\label{equ:Shields}
+\Theta = \frac{\tau}{(\rho_{\text{p}} - \rho_{\text{f}}) g d},
+\end{equation}
+
+where $\tau$ is the surface shear stress, $\rho_{\text{p}}$ and $\rho_{\text{f}}$ are the densities of the particles and fluid respectively, $g = 9.81$ m s$^{-2}$ is the acceleration due to gravity and $d$ is the particle diameter. Hence, there is some critical value of the Shields number at which motion becomes possible.
+
+Broadly, there are three mechanisms describing how sediment can be transported by an overlying fluid \citep{Bagnold41}. For Shields numbers just above the threshold for motion, bedload transport (reptation) will occur, whereby particles slide and roll across the surface. With increasing flow velocity, these particles can be lift higher into the flow, and `hop' across the bed following ballistic trajectores, a process called saltation. Once the size of turbulent fluctuations in the vertical fluid velocity are comparable to the settling velocity of the particles, they can become suspended in the fluid and are transported as suspended load. For the purpose of the rest of this review, all sediment transport can be assumed to occur through reptation or saltation unless otherwise specified. 
+
+There is a finite limit to the amount of sediment a given flow can transport. This is quantified through the saturated sediment flux $q_{\text{sat}}$ \citep{Bagnold41, Owen64}. Therefore, there must also be a lengthscale $L_{\text{sat}}$ and/or timescale $T_{\text{sat}}$ over which this saturation can be achieved. Expressions for $q_{\text{sat}}$ scales depend on the mechanics of transport but a general partial differential equation for the sediment flux $q$ can be given as \citep{Charru13}
+
+\begin{equation}
+\label{equ:sed_flux}
+T_{\text{sat}} \frac{\partial q(x,t)}{\partial t} + L_{\text{sat}} \frac{\partial q(x,t)}{\partial x} = q_{\text{sat}} - q(x,t) .
+\end{equation}
+
+This equation is valid for a unidirectional flow.
 \section{Inititation of transverse structures}
 \label{sec:init}
 
