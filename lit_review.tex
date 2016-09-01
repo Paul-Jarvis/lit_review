@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+
+%\usepackage{mathptm}  
+\usepackage{a4}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{amstext}
+\usepackage{amsmath}
+%\usepackage{fullpage}
+%\usepackage{parskip}
+\usepackage[colon]{natbib}
+%\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage[nomarkers,figuresonly]{endfloat}
+\usepackage{amsfonts}
+\usepackage{pifont}
+\usepackage{authblk}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage{amsfonts}
+\usepackage{amssymb} %maths symbols
+
+\textwidth 160mm
+\textheight 235mm
+\oddsidemargin 0mm
+\topmargin -15mm
+\baselineskip 13pt
+\parskip 1pc
+\parindent 0pc
+
+\pagestyle{fancy}
+\cfoot{\thepage}
+
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0.2pt}
+
+\newcommand\Bo{\mbox{\textit{Bo}}}  % Bond number
+\newcommand\Ca{\mbox{\textit{Ca}}} %Capillary number
+
+\definecolor{darkred}{rgb}{0.80,0.00,0.05}
+\definecolor{blue}{rgb}{0.00,0.00,0.95}
+\definecolor{darkgreen}{rgb}{0.00,0.60,0.0}
+\definecolor{gray}{rgb}{0.95,0.9,0.9}
+
+\usepackage{listings}
+\lstset{language=C++}
+\lstset{backgroundcolor=\color{gray}}
+\lstset{breaklines=true}
+\lstset{basicstyle=\ttfamily\small}
+\lstset{showstringspaces=false}
+\lstset{keywordstyle=\color{blue}\bfseries}
+\lstset{commentstyle=\ttfamily\small\color{darkgreen}}
+\lstset{identifierstyle=\color{darkred}\bfseries}
+\lstset{numbers=left,numberstyle=\tiny}
+\lstset{columns=fixed,basewidth=0.45em}
+
+\DeclareMathOperator\erf{erf}
+
+\linespread{1}
+
+\title{The initiation and evolution of transverse dunes: A literature review}
+\date{}
+\author{Paul Jarvis}
+
+\begin{document}
+\thispagestyle{empty}
+
+\maketitle
+
+\section{Introduction}
+\label{sec:intro}
+
+\subsection{Types of sedimentary bedforms}
+\label{subsec:sed_bed}
+
+There are a variety of different types of sedimentary bedforms found in nature, with the diversity reflecting the hugely variable conditions under which erosion and sedimentation processes occur. Most generally, there are two types of environment in which bedforms can be found: subaerial; and subaqueous. Subaerial bedforms result from the flow of air over a granular medium, such as a desert, beach or a volcanic ash deposit. Subaqueous bedforms are created by the action of water, and can be found on river-beds, shallow coastel regions, or deeper continental shelves. Within this hierarchy, further variability in shape and size of bedform originates from spatial and temporal variations in flow-speed, flow-depth, particle size, particle density and local topography. Examples of different types of bedforms are shown in figure~\ref{fig:bedforms}.
+
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{../figures/barchan.png}
+        \caption{}
+        \label{fig:barchan}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{../figures/transverse_dunes.png}
+        \caption{}
+        \label{fig:trans}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{../figures/subaqueous_ripples.png}
+        \caption{}
+        \label{fig:subaq_rip}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{../figures/San_Fran.png}
+        \caption{}
+        \label{fig:SF}
+    \end{subfigure}
+
+    \caption{Examples of bedforms. a) A field of barchan dunes from Morocco. \citep{Duran11}. b) Transverse dune field in the East Taklamakan desert, China \citep{Gao15}. Subaqueous ripples in Zion National Park, USA \citep{Andreotti12}. d) Large subaqueous dunes in San Francisco Bay, USA \citep{Barnard06}.\label{fig:bedforms}}
+\end{figure}
+
+\subsection{Modes of sediment transport}
+\label{subsec:sed_trans}
+
+\section{Inititation of transverse structures}
+\label{sec:init}
+
+\section{Coarsening}
+\label{sec:coarse}
+
+\section{Open questions}
+\label{sec:openQs}
+
+
+\bibliographystyle{plainnat}
+
+\bibliography{lit_review}
+
+\end{document}

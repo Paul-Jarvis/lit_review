@@ -1,0 +1,32 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andreotti et~al.(2012)Andreotti, Claudin, Devauchell, Dur{\'a}n, and
+  Fourri{\`e}re]{Andreotti12}
+B.~Andreotti, P.~Claudin, O.~Devauchell, O.~Dur{\'a}n, and A.~Fourri{\`e}re.
+\newblock Bedforms in a turbulent stream: ripples, chevrons and antidunes.
+\newblock \emph{J. {F}luid {M}ech.}, 690:\penalty0 94--128, 2012.
+
+\bibitem[Barnard et~al.(2006)Barnard, Haynes, Rubin, and Kvitek]{Barnard06}
+P.~L. Barnard, D.~M. Haynes, D.~M. Rubin, and R.~G. Kvitek.
+\newblock Giant {S}and {W}aves at the {M}outh of {S}an {F}rancisco {B}ay.
+\newblock \emph{Eos}, 87, 2006.
+
+\bibitem[Dur{\'a}n et~al.(2011)Dur{\'a}n, Sch{\"w}ammle, Lind, and
+  Herrmann]{Duran11}
+O.~Dur{\'a}n, V.~Sch{\"w}ammle, P.~G. Lind, and H.~J. Herrmann.
+\newblock Size distribution and structure of {B}archan dune fields.
+\newblock \emph{Nonlin. {P}rocesses {G}eophys.}, 18:\penalty0 455--467, 2011.
+
+\bibitem[Gao et~al.(2015)Gao, Narteau, and Rozier]{Gao15}
+X.~Gao, C.~Narteau, and O.~Rozier.
+\newblock Development and steady states of transverse dunes: {A} numerical
+  analysis of dune pattern coarsening and giant dunes.
+\newblock \emph{J. {G}eophys. {R}es. {E}arth {S}urf.}, 120:\penalty0
+  2200--2219, 2015.
+
+\end{thebibliography}
