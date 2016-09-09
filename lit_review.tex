@@ -79,7 +79,78 @@
 \section{Fluid flow}
 \label{sec:fluid}
 
-The first consideration when considering sedimentary processes is the driving flow. Although it is possible for sediment transport to occur in laminar flow \citep{Charru02, Charru04, Mouilleron09}, the majority of research into the dynamics of ripples and dunes has considered turbulent conditions \citep{Andreotti02, Kroy02, Langlois07, Wierschem08, Franklin11, Charru12, Andreotti12, Franklin15}, a reflection of the fact that these are relevant to the majority of natural systems.
+The first consideration when considering sedimentary processes is the driving flow. Although it is possible for sediment transport to occur in laminar flow \citep{Charru02, Charru04, Mouilleron09}, the majority of research into the dynamics of ripples and dunes has considered turbulent conditions \citep{Andreotti02, Kroy02, Langlois07, Wierschem08, Franklin11, Charru12, Andreotti12, Franklin15}, a reflection of the fact that these are relevant to the majority of natural systems. Therefore, we here summarise the fundamentals of turbulent flow, before discussing descriptions of wall bounded turbulent flow, both over flat and wavy surfaces.
+
+\subsection{Turbulence}
+\label{subsec:turb}
+
+The flow of any incompressible Newtonian fluid is described by the Navier-Stokes (NS) equation and the incompressibility relation:
+
+\begin{equation}
+\label{equ:NS_equ}
+\frac{\partial \boldsymbol{u}}{\partial t} + (\boldsymbol{u} \cdot \boldsymbol{\nabla}) \boldsymbol{u} = -\frac{\boldsymbol{\nabla} p}{\rho} + \nu \nabla^{2} \boldsymbol{u};
+\end{equation}
+
+and
+
+\begin{equation}
+\label{equ:cont}
+\boldsymbol{\nabla} \cdot \boldsymbol{u}.
+\end{equation}
+
+These describe conservation of momentum and mass respectively where $\boldsymbol{u}(\boldsymbol{x},t)$ is the velocity field, $p(\boldsymbol{x},t)$ the pressure field, $\rho$ the fluid density and $\nu$ the kinematic viscosity of the fluid, whilst $\boldsymbol{x}$ and $t$ are the spatial and temporal variables. If we define the components of the stress tensor $\boldsymbol{\tau}$ to be
+
+\begin{equation}
+\label{equ:stress}
+\tau_{ij} = \rho \nu \left(\frac{\partial u_{i}}{\partial x_{j}} + \frac{\partial u_{j}}{\partial x_{i}}\right),
+\end{equation}
+
+then the NS equation can be re-written as
+
+\begin{equation}
+\label{equ:NS_stress}
+\rho\left(\frac{\partial \boldsymbol{u}}{\partial t} + (\boldsymbol{u} \cdot \boldsymbol{\nabla}) \boldsymbol{u}\right) = -\boldsymbol{\nabla} p + \boldsymbol{\nabla} \cdot \boldsymbol{\tau}.
+\end{equation}
+
+It is useful to define the quantity vorticity, $\boldsymbol{\omega} = \boldsymbol{\nabla} \times \boldsymbol{u}$ which provides a measure of the local angular momentum of fluid elements. Vorticity is a useful quantity for a number of reasons. Firstly, it can be shown to obey a simpler equation than $\boldsymbol{u}$,
+
+\begin{equation}
+\label{equ:vort_equ}
+\frac{\partial \boldsymbol{\omega}}{\partial t} + (\boldsymbol{u} \cdot \boldsymbol{\nabla}) \boldsymbol{\omega} = (\boldsymbol{\omega} \cdot \boldsymbol{\nabla}) \boldsymbol{u} + \nu \nabla^{2} \boldsymbol{\omega}.
+\end{equation}
+
+Secondly, it can be shown for two-dimensional flows that vorticity must be conserved within flow interiors; it cannot be created or destroyed but only advected or diffused. Vorticity can only be created at the boundaries of fluid domains, before being transferring into the interior. The origin of this creation is the strong velocity gradients within boundary layers. 
+
+The third use of vorticity is that is provides a starting point for a possible definition of turbulence. Turbulence is a poorly defined quantity. However, it is possible to picture turbulent eddies as regions of vorticity, with turbulence being an evolving field of eddies \citep{Davidson04}. Here we will use the following definition of turbulence from \citet{Corrsin61}, which has been modified by \citet{Davidson04}: ``Incompressible fluid turbulence is a spatially complex distribution of vorticity which advects intself in a chaotic manner in accordance with (\ref{equ:vort_equ}). The vorticity field is random in both space and time, and exhibits a wide and continuous distribution of length and time scales''. 
+
+With a definition of turbulence, we can now proceed with a description of turbulent flow. This is achieved by decomposing $\boldsymbol{u}$, $p$ and $\boldsymbol{\tau}$ into mean and fluctuation fields e.g. $\boldsymbol{u} = \boldsymbol{\bar{u}} + \boldsymbol{u'}$ where the bar denotes the mean field and the prime the fluctuation. The time-averaged NS equation is then shown to be given by
+
+\begin{equation}
+\label{equ:TA-NS}
+\rho \left(\frac{\partial \bar{u_{i}}}{\partial t} + \bar{u_{j}} \partial_{j} \bar{u_{i}}\right) = - \partial_{i} \bar{p} + \partial_{i}(\bar{\tau_{ij}} + \tau_{ij}^{\text{R}}) 
+\end{equation}
+
+where the Reynolds stresses $\tau_{ij}^{\text{R}} = -\rho \bar{u_{i}'u_{j}'}$. Additionally, time-averging the incompressibility relation yields both $\partial_{i} \bar{u_{i}} = 0$ and $\partial_{i} u_{i}' = 0$. Reynolds stresses are not stresses in a physical sense. Physical stresses correspond to momentum fluxes between different fluid particles. Reynolds stresses correspond to momentum flux between the mean and fluctuation fields. 
+
+With this definition of Reynolds stresses, it is possible to manipulate the equations of motion to obtain an equation for them. This is algerbraically arduous and will not be repeated here but the end result contains a term $\partial_{k} (\bar{u_{i}' u_{j}' u_{k}'})$. The triple correlations here are unknown, but deriving an equation for them leads to a further set of unknowns $\bar{u_{i}' u_{j}' u_{k}' u_{l}'}$. The governing equations for these involves fifth-order correlations and so on. Hence, this statistical description of turbulence is undetermined - there are more unknowns than equations. This is called the closure problem. Numerous empirical models have been developed for a closure relation which completes the system of equations. The most widely used are eddy viscosity models, based on the principle that dissipation of momentum from the mean flow to the fluctuations by the Reynolds stresses is analogous to dissipation of momentum by viscous stresses. Hence, an analogous eddy viscosity $\nu_{\text{t}}$ can be defined as \citep{Boussinesq87}
+
+\begin{equation}
+\label{equ:eddy_viscos}
+\tau_{ij}^{\text{R}} = \rho \nu_{\text{t}} (\partial_{j} \bar{u_{i}} + \partial_{i} \bar{u_{j}}) - \frac{\rho \bar{u_{k}' u_{k}'} \delta_{ij}}{3}.
+\end{equation}
+
+How $\nu_{\text{t}}$ is determined depends on the geometry of the flow. Since we are considering wall-bounded two-dimensional flows the most common method is to use Prandtl's mixing length model \citep{Prandtl25} (an analogue to the kinetic theory of viscosity) which gives
+
+\begin{equation}
+\label{equ:mix_length}
+\nu_{\text{t}} = l_{\text{m}}^{2} |\partial_{z} \bar{u_{x}}|,
+\end{equation}
+
+where $l_{\text{m}}$ is the mixing length which can be determined empirically. Whilst the model relies on dubious asumptions, it has been shown to be very succesful for one-dimensional shear flows. 
+
+\subsection{Wall-bounded flow}
+\label{subsec:wall}
+
 
 \section{Types of sedimentary bedforms}
 \label{sec:sed_bed}

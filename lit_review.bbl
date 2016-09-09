@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,6 +27,12 @@ P.~L. Barnard, D.~M. Haynes, D.~M. Rubin, and R.~G. Kvitek.
 \newblock Giant {S}and {W}aves at the {M}outh of {S}an {F}rancisco {B}ay.
 \newblock \emph{Eos}, 87, 2006.
 
+\bibitem[Boussinesq(1887)]{Boussinesq87}
+J.~Boussinesq.
+\newblock Essai sur la th{\'e}orie des eaux courantes.
+\newblock \emph{M{\'e}moires pr{\'e}sent{\'e}s par divers savants {\`a}
+  l'{A}cad{\'e}mie des {S}ciences}, 23:\penalty0 1--680, 1887.
+
 \bibitem[Charru and Franklin(2012)]{Charru12}
 F.~Charru and E.~M. Franklin.
 \newblock Subaqueous barchan dunes in turbulent shear flow. {P}art 2. {F}luid
@@ -48,6 +54,17 @@ F.~Charru, H.~Mouilleron, and O.~Eiff.
 F.~Charru, B.~Andreotti, and P.~Claudin.
 \newblock Sand {R}ipples and {D}unes.
 \newblock \emph{Annu. {R}ev. {F}luid. {M}ech.}, 45:\penalty0 469--493, 2013.
+
+\bibitem[Corrsin(1961)]{Corrsin61}
+S.~Corrsin.
+\newblock Turbulent flow.
+\newblock \emph{Am. {S}ci.}, 49:\penalty0 300--325, 1961.
+
+\bibitem[Davidson(2004)]{Davidson04}
+P.~A. Davidson.
+\newblock \emph{Turbulence: {A}n {I}ntroduction for {S}cientists and
+  {E}ngineers}.
+\newblock {O}xford {U}niversity {P}ress, first edition, 2004.
 
 \bibitem[Dur{\'a}n et~al.(2011)Dur{\'a}n, Sch{\"w}ammle, Lind, and
   Herrmann]{Duran11}
@@ -93,6 +110,11 @@ H.~Mouilleron, F.~Charru, and O.~Eiff.
 P.~R. Owen.
 \newblock Saltation of uniform grains in air.
 \newblock \emph{J. {F}luid. {M}ech.}, 20:\penalty0 225--242, 1964.
+
+\bibitem[Prandtl(1925)]{Prandtl25}
+L.~Prandtl.
+\newblock Bericht ber {U}ntersuchungen zur ausgebildeten {T}urbulenz.
+\newblock \emph{Z. {A}ngew. {M}ath. {M}ech.}, 5:\penalty0 136--139, 1925.
 
 \bibitem[Wierschem et~al.(2008)Wierschem, Groh, Rehberg, Aksel, and
   Kruelle]{Wierschem08}
