@@ -151,7 +151,64 @@ where $l_{\text{m}}$ is the mixing length which can be determined empirically. W
 \subsection{Wall-bounded flow}
 \label{subsec:wall}
 
+We will initially consider turbulent flow over a flat, smooth, solid surface, with the mean flow directed in the x-direction, and the z-direction denoting the upward normal to the surface. The mean velocity in the interior of the flow (outside the boundary layer) is $\boldsymbol{\bar{u}} = (U_{0}, 0, 0)$ and the flow is unbounded as $z \to \infty$. The boundary layer thickness $\delta$ can be defined as the value of $z$ at which $\bar{u_{x}}(z) = 0.99 U_{0}$, although other measures exist \citep{Pope00}. A significant amount of work has gone into studying the structure of this boundary layer. It has been postulated \citep{Prandtl25}, and since verified both experimentally \citep{Wei89}and numerically \citep{Kim87}, that there exists an inner layer close to the wall ($y / \delta \ll 1$) where $\bar{u}(x)$ depends on the viscous scales and is independent of $\delta$ and $U_{0}$. The viscous lengthscale is defined as 
 
+\begin{equation}
+\label{equ:viscos_length}
+\delta_{\nu} = \frac{\nu}{u_{\tau}},
+\end{equation}
+
+where $u_{\tau}$ is the friction velocity, defined as
+
+\begin{equation}
+\label{equ:frict_vel}
+u_{\tau} = \left(\frac{\tau_{\text{w}}}{\rho}\right)^{1/2},
+\end{equation}
+
+and $\tau_{w}$ is the shear stress exerted on the wall. This postulate can be used to find the velocity profile within the inner layer. Defining $y^{+} = y / \delta_{\nu}$, it can be shown that for small $y^{+}$ there exists a viscous sublayer where \citep{Pope00}
+
+\begin{equation}
+\label{equ:sublayer_vel}
+\bar{u}_{x}(z) = \frac{u_{\tau} z}{\delta_{\nu}},
+\end{equation}
+
+and for $y^{+} \gg 1$, there is a so called log-law region \citep{vonKarman30} where
+
+\begin{equation}
+\label{equ:log_law}
+\bar{u}_{x}(z) = \frac{u_{\tau}}{\kappa} \ln\left(\frac{z}{z_{0}}\right).
+\end{equation}
+
+Here $\kappa$ is the von K{\'a}rm{\'a}n constant and $z$ is a constant of integration called the hydrodynamical roughness, found by matching to the profile in the viscous sublayer. Experimental and numerical studies have shown that the viscous sublayer typically extends to $y^{+} < 5$ and the log-law region for $y^{+} > 30$, $y / \delta < 0.3$ \citep{Kim87, Wei89}, with $\kappa \approx 0.4$. The transition between these two parts of the inner layer is called the buffer layer. Beyond the inner layer, there exists an outer layer, which has predominantly been described empirically \citep{Pope00}.
+
+The mixing length for wall-bounded flow is given by \citep{Pope00}
+
+\begin{equation}
+\label{equ:smooth_mix_length}
+l_{\text{m}} = \kappa z \left[1 - \exp\left(\frac{z}{\alpha \delta_{\nu}}\right)\right],
+\end{equation}
+
+where $\alpha \approx 25$ is the van Driest number. 
+
+For a rough surface, the roughness can be described by a bed of grains of characteristic diameter $d$ fixed at $z = 0$ \citep{Charru13}. For $d / \delta_{\nu} \lesssim 5$ the effect of the roughness in the log-law region is negligible, as the disturbance to the flow is contained within the viscous sublayer. However, at larger $d$, the flow is said to be hydrodynamically rough, and experimental observations are used to estimate the hydrodynamic roughness \citep{Bagnold41, Kamphuis74}. Various works use $l_{m} = \kappa(z + z_{0})$ as the mixing length for a hydrodynamically rough flow \citep{Fourriere10}.
+
+\subsection{Flow over a perturbed profile}
+\label{subsec:obst}
+
+We now consider the flow over a sinusoidal profile $\zeta = \zeta_{0} \cos (k x)$, where $\zeta_{0}$ is the amplitude of the perturbations to the surface, and $k$ is the wavenumber. If the gradient of the profile is small ($k \zeta_{0} \ll 1$), then the resultant perturbation to the flow will be linear. For example, the resultant perturbation to the shear-stress in the x-direction at the fluid surface can be expressed as \citep{Kroy02, Charru13}
+
+\begin{equation}
+\label{equ:stress_pert}
+\tau_{\text{b}} = \frac{\hat{\tau} e^{i k x} + \hat{\tau}^{*} e^{-i k x}}{2}, \quad \text{where} \quad \hat{\tau} = \tau_{\text{w}} (A + i B) k \zeta_{0}.
+\end{equation} 
+
+The periodic functional form of $\tau_{\text{b}}$ is due to the periodic nature of the solid boundary. The contribution from $A$ is in-phase with the surface disturbance and that from $B$ is in quadrature. 
+
+Depending on the relative values of the different length scales in the problem ($k^{-1}$, $\delta_{\nu}$), the perturbation to the flow occurs in different hydrodynamic regimes. For the case that the flow disturbance is confined to the viscous sublayer ($k \delta_{\nu} ll 1$), the flow disturbance due to the surface perturbations is laminar, and has a two-layered structure \citep{Charru13}: an inner viscous layer, and an outer inertial layer. Remember, both of these layers are within the viscous sublayer and are different from the much larger inner and outer layers that describe the coarser structure of the general boundary layer. The shear-stress on the solid surface can be evaluated, and both $A$ and $B$ in equation (\ref{equ:stress_pert}) are found to both be positive. This means the maximum of the shear stress is always located upstream of the crests \citep{Benjamin58, Charru00, Charru13}. 
+
+The other possibility is that the flow disturbance extends beyond the viscous sublayer ($k \delta_{\nu} > 1$). It can again be shown that the flow disturbance has a multi-layered structure, but here the perturbation is turbulent. \citet{Jackson75} and \citet{Sykes80} considered two-layers: a thin, turbulent layer outside the viscous sublayer dominated by gradients in Reynolds stresses, overlain by an inertia-dominated layer that continued up to the outer layer of the boundary layer. This description was later improved wth the inclusion of a middle layer which improved matching \citep{Hunt88, Belcher98}. As for small peaks, the maximum shear stress is again found upstream of the crests \citep{Hunt88, Belcher98, Kroy02, Charru13}.
+
+As well as the laminar and turbulent regime, there is a transitional regime where neither viscous effects nor turbulent fluctuations can be ignored. Thus far, only empirically verified simple parameterisations of the viscous sublayer thickness have been used in describing this regime \citep{Abrams85, Frederick88}, and a true physical understanding of the behaviour is lacking.
 \section{Types of sedimentary bedforms}
 \label{sec:sed_bed}
 

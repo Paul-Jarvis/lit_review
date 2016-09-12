@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.2)  9 SEP 2016 16:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.2)  12 SEP 2016 18:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -515,57 +515,57 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] <../figures/barchan.png, id=125, 318.18875pt x 248.93pt>
+[2] [3] [4] [5] <../figures/barchan.png, id=223, 318.18875pt x 248.93pt>
 File: ../figures/barchan.png Graphic file (type png)
 
 <use ../figures/barchan.png>
-Package pdftex.def Info: ../figures/barchan.png used on input line 164.
+Package pdftex.def Info: ../figures/barchan.png used on input line 221.
 (pdftex.def)             Requested size: 204.85844pt x 160.26424pt.
 
-<../figures/transverse_dunes.png, id=126, 289.08pt x 173.64874pt>
+<../figures/transverse_dunes.png, id=224, 289.08pt x 173.64874pt>
 File: ../figures/transverse_dunes.png Graphic file (type png)
 
 <use ../figures/transverse_dunes.png>
-Package pdftex.def Info: ../figures/transverse_dunes.png used on input line 171
+Package pdftex.def Info: ../figures/transverse_dunes.png used on input line 228
 .
 (pdftex.def)             Requested size: 204.85844pt x 123.05565pt.
 
-<../figures/subaqueous_ripples.png, id=127, 180.675pt x 129.48375pt>
+<../figures/subaqueous_ripples.png, id=225, 180.675pt x 129.48375pt>
 File: ../figures/subaqueous_ripples.png Graphic file (type png)
 
 <use ../figures/subaqueous_ripples.png>
-Package pdftex.def Info: ../figures/subaqueous_ripples.png used on input line 1
-77.
+Package pdftex.def Info: ../figures/subaqueous_ripples.png used on input line 2
+34.
 (pdftex.def)             Requested size: 204.85844pt x 146.81674pt.
 
-<../figures/San_Fran.png, id=128, 304.13625pt x 242.9075pt>
+<../figures/San_Fran.png, id=226, 304.13625pt x 242.9075pt>
 File: ../figures/San_Fran.png Graphic file (type png)
 
 <use ../figures/San_Fran.png>
-Package pdftex.def Info: ../figures/San_Fran.png used on input line 184.
+Package pdftex.def Info: ../figures/San_Fran.png used on input line 241.
 (pdftex.def)             Requested size: 204.85844pt x 163.62189pt.
- [4 <../figures/barchan.png (PNG copy)> <../figures/transverse_dunes.png (PNG c
+ [6 <../figures/barchan.png (PNG copy)> <../figures/transverse_dunes.png (PNG c
 opy)> <../figures/subaqueous_ripples.png (PNG copy)> <../figures/San_Fran.png (
-PNG copy)>] (./lit_review.bbl [5] [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
+PNG copy)>] (./lit_review.bbl [7] [8] [9])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
 
-(./lit_review.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
+ (./lit_review.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `lit_review.out' has not changed.
-(rerunfilecheck)             Checksum: D1ABA5FF2FA5FFD7A388A439B67539CF;508.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
+(rerunfilecheck)             Checksum: 8EF4002246FB282B690D28F2B914DD96;587.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 9281 strings out of 494327
- 137137 string characters out of 6167770
+ 9356 strings out of 494327
+ 138260 string characters out of 6167770
  255148 words of memory out of 5000000
- 12333 multiletter control sequences out of 15000+600000
+ 12384 multiletter control sequences out of 15000+600000
  14253 words of font info for 51 fonts, out of 8000000 for 9000
  505 hyphenation exceptions out of 8191
- 36i,11n,58p,1099b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,58p,1099b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
@@ -579,11 +579,12 @@ c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on lit_review.pdf (7 pages, 483373 bytes).
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on lit_review.pdf (10 pages, 512191 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
