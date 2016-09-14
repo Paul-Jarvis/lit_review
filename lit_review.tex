@@ -209,6 +209,34 @@ Depending on the relative values of the different length scales in the problem (
 The other possibility is that the flow disturbance extends beyond the viscous sublayer ($k \delta_{\nu} > 1$). It can again be shown that the flow disturbance has a multi-layered structure, but here the perturbation is turbulent. \citet{Jackson75} and \citet{Sykes80} considered two-layers: a thin, turbulent layer outside the viscous sublayer dominated by gradients in Reynolds stresses, overlain by an inertia-dominated layer that continued up to the outer layer of the boundary layer. This description was later improved wth the inclusion of a middle layer which improved matching \citep{Hunt88, Belcher98}. As for small peaks, the maximum shear stress is again found upstream of the crests \citep{Hunt88, Belcher98, Kroy02, Charru13}.
 
 As well as the laminar and turbulent regime, there is a transitional regime where neither viscous effects nor turbulent fluctuations can be ignored. Thus far, only empirically verified simple parameterisations of the viscous sublayer thickness have been used in describing this regime \citep{Abrams85, Frederick88}, and a true physical understanding of the behaviour is lacking.
+
+
+\subsubsection{Other flow features}
+\label{subsubsec:other_flow}
+
+Clearly, the above description of the effect of shallow, sinusoidal disturbances to the wall doesn't completely describe flow regimes for natural bedforms. Perhaps the most obvious difference involves the shape of the obstacle. The typical, two-dimensional dune shape is asymmetric, with a long upstream (stoss) side and a shorter downstream (lee) side. The reasons for this shape will be discussed below but it is clear that any model of flow over bedforms must account for this. Numerical investigations have studied the response of flow to obstacles of different shapes \citep{Richards81, Yue06} and, as long as obstacle slopes are small, linear descriptions of flow response are still valid. 
+
+As slopes become steeper ($k \zeta_{0} \approx 0.1$), non-linear effects become important. To account for these it is neccessary to generalise equation (\ref{equ:stress_pert}) to include higher order terms in the expansion,
+
+\begin{equation}
+\label{equ:gen_shear_stress}
+\tau_{\text{b}} = \frac{1}{2} \sum_{n = 1}^{N} (\hat{\tau_{n}} e^{i k x} + \hat{\tau_{n}}^{*} e^{-i k x})^{n}, \quad \text{where} \quad \hat{\tau_{n}} = \tau_{0}(A_{n} + i B_{n}) (k \zeta_{0}).
+\end{equation}
+
+This reduces to equation (\ref{equ:stress_pert}) for the case $N = 1$. Some weakly non-linear analysis have been performed, using a small number of terms to evaluate the perturbation to the flow field \citep{Caponi82, Andreotti09}, and these successfully predict changes to the velocity profile and surface shear stress for $k \zeta_{0} \lesssim 0.3$ \citep{Kuzan89}. Of particular interest is the deviation to the shear stress profile as higher harmonics become significant \citep{Zilker77, Richards81}. 
+
+Further increasing $k \zeta_{0}$ leads to the occurence of a strongly nonlinear feature called flow separation. This occurs as the flow passes over the crest of an obstacle, and slows down as the flow depth increases. If the extent of slowing down in the fluid adjacent to the surface is much greater than in the overlying fluid, this can lead to the formation of a recicrulation bubble behind the obstacle (figure~\ref{fig:flow_sep}). The streamlines separate from the surface at the point S and reattach at R. 
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{../figures/flow_separation.png}
+  \caption{Schematic showing flow separation behind an obstacle. Streamlines separate from the solid surface at point S and rejoin at R, forming a recirculation zone bounded by the solid surface and the red curve (called the separation streamline).}
+  \label{fig:flow_sep}
+\end{figure}
+
+Recirculation bubbles have been observed in numerous experimental and numerical studies of flow over wavy boundaries, with focus on the conditions that lead to flow separation \citep{Zilker79, Richards81, Kuzan89}, the location, size and shape of the recirculation bubble \citep{Buckles84}, and the effect of the bubble of the surface shear stress \citep{Finnigan90, Henn99}. It is also important to note that for turbulent flows, the turbulent fluctuations mean that, although the mean flow may be steady, the instantaneous flow varies, meaning the positions of the separation and reattachment points may change with time \citep{Zilker79}. This presents a challenge when defining the extent of the recirculation bubble for turbulent flows. To handle this, the intermittency $\gamma(x,z)$ is defined as the fraction of the time that the flow is directed in the positive x direction \citep{Simpson81}. Contours of intermittancy can then be used to define the region of reverse flow and the recirculation bubbles \citep{Buckles84}. 
+
+At the separation point, a layer of high vorticity is ejected from the boundary into the interior of the flow \citep{Yue06}. If the wavelength of the obstacles is shorter than the distance over which this vorticity disperses, then vertical velocity profiles in the flow can become highly chaotic and far removed from the simple analytical descriptions of wall flow. 
+
 \section{Types of sedimentary bedforms}
 \label{sec:sed_bed}
 
@@ -246,6 +274,7 @@ There are a variety of different types of sedimentary bedforms found in nature, 
     \caption{Examples of bedforms. a) A field of barchan dunes from Morocco. \citep{Duran11}. b) Transverse dune field in the East Taklamakan desert, China \citep{Gao15}. Subaqueous ripples in Zion National Park, USA \citep{Andreotti12}. d) Large subaqueous dunes in San Francisco Bay, USA \citep{Barnard06}.\label{fig:bedforms}}
 \end{figure}
 
+We will focus here on two-dimensional bedforms in unidirectional flow: ripples, dunes and antidunes. 
 \section{Modes of sediment transport}
 \label{sec:sed_trans}
 

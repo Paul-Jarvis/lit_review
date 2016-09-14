@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,6 +15,14 @@ B.~Andreotti, P.~Claudin, and S.~Douady.
 \newblock Selection of dune shapes and velocities {P}art 1: {D}ynamics of sand,
   wind and barchans.
 \newblock \emph{Eur. {P}hys. {J}. {B}}, 28:\penalty0 321--339, 2002.
+
+\bibitem[Andreotti et~al.(2009)Andreotti, Fourri{\`e}re, Ould-{K}addour,
+  Murray, and Claudin]{Andreotti09}
+B.~Andreotti, A.~Fourri{\`e}re, F.~Ould-{K}addour, A.~B. Murray, and
+  P.~Claudin.
+\newblock Giant aeolian dune size determined by the averaged depth of the
+  atmospheric boundary layer.
+\newblock \emph{Nature}, 457:\penalty0 1120--23, 2009.
 
 \bibitem[Andreotti et~al.(2012)Andreotti, Claudin, Devauchell, Dur{\'a}n, and
   Fourri{\`e}re]{Andreotti12}
@@ -47,6 +55,18 @@ J.~Boussinesq.
 \newblock Essai sur la th{\'e}orie des eaux courantes.
 \newblock \emph{M{\'e}moires pr{\'e}sent{\'e}s par divers savants {\`a}
   l'{A}cad{\'e}mie des {S}ciences}, 23:\penalty0 1--680, 1887.
+
+\bibitem[Buckles et~al.(1984)Buckles, Hanratty, and Adrian]{Buckles84}
+J.~Buckles, T.~J. Hanratty, and R.~J. Adrian.
+\newblock Turbulent flow over large-amplitude wavy surfaces.
+\newblock \emph{J. {F}luid {M}ech.}, 140:\penalty0 27--44, 1984.
+
+\bibitem[Caponi et~al.(1982)Caponi, Fornberg, Knight, Mc{L}ean, Saffman, and
+  Yeun]{Caponi82}
+E.~A. Caponi, B.~Fornberg, D.~D. Knight, J.~W. Mc{L}ean, P.~G. Saffman, and
+  H.~C. Yeun.
+\newblock Calculations of laminar viscous flow over a moving wavy surface.
+\newblock \emph{J. {F}luid {M}ech.}, 124:\penalty0 247--262, 1982.
 
 \bibitem[Charru and Franklin(2012)]{Charru12}
 F.~Charru and E.~M. Franklin.
@@ -93,6 +113,12 @@ O.~Dur{\'a}n, V.~Sch{\"w}ammle, P.~G. Lind, and H.~J. Herrmann.
 \newblock Size distribution and structure of {B}archan dune fields.
 \newblock \emph{Nonlin. {P}rocesses {G}eophys.}, 18:\penalty0 455--467, 2011.
 
+\bibitem[Finnigan et~al.(1990)Finnigan, Raupach, Bradley, and
+  Aldis]{Finnigan90}
+J.~J. Finnigan, M.~R. Raupach, E.~F. Bradley, and G.~K. Aldis.
+\newblock A wind-tunnel study of turbulent flow over a two-dimensional ridge.
+\newblock \emph{Bound.-{L}ayer {M}eteor.}, 50:\penalty0 277--317, 1990.
+
 \bibitem[Fourri{\`e}re et~al.(2010)Fourri{\`e}re, Claudin, and
   Andreotti]{Fourriere10}
 A.~Fourri{\`e}re, P.~Claudin, and B.~Andreotti.
@@ -124,6 +150,11 @@ X.~Gao, C.~Narteau, and O.~Rozier.
 \newblock \emph{J. {G}eophys. {R}es. {E}arth {S}urf.}, 120:\penalty0
   2200--2219, 2015.
 
+\bibitem[Henn and Sykes(1999)]{Henn99}
+D.~S. Henn and R.~I. Sykes.
+\newblock Large-eddy simulation of flow over wavy surfaces.
+\newblock \emph{J. {F}luid {M}ech.}, 383:\penalty0 75--112, 1999.
+
 \bibitem[Hunt et~al.(1988)Hunt, Leibovich, and Richards]{Hunt88}
 J.~C.~R. Hunt, S.~Leibovich, and K.~J. Richards.
 \newblock Turbulent shear flows over low hills.
@@ -151,6 +182,11 @@ K.~Kroy, G.~Sauermann, and H.~J. Herrmann.
 \newblock Minimal model for aeolian sand dunes.
 \newblock \emph{Phys. {R}ev. {E}}, 66, 2002.
 
+\bibitem[Kuzan et~al.(1989)Kuzan, Hanratty, and Adrian]{Kuzan89}
+J.~D. Kuzan, T.~J. Hanratty, and R.~J. Adrian.
+\newblock Turbulent flows with incipient separation over solid waves.
+\newblock \emph{Exp. {F}luids}, 7:\penalty0 88--98, 1989.
+
 \bibitem[Langlois and Valance(2007)]{Langlois07}
 V.~Langlois and A.~Valance.
 \newblock Initiation and evolution of current ripples on a flat sand bed under
@@ -177,6 +213,17 @@ L.~Prandtl.
 \newblock Bericht ber {U}ntersuchungen zur ausgebildeten {T}urbulenz.
 \newblock \emph{Z. {A}ngew. {M}ath. {M}ech.}, 5:\penalty0 136--139, 1925.
 
+\bibitem[Richards and Taylor(1981)]{Richards81}
+K.~J. Richards and P.~A. Taylor.
+\newblock A numerical model of flow over sand waves in water of finite depth.
+\newblock \emph{Geophys. {J}. {R}. astr. {S}oc.}, 65:\penalty0 103--128, 1981.
+
+\bibitem[Simpson et~al.(1981)Simpson, Chew, and Shivaprasad]{Simpson81}
+R.~L. Simpson, Y.~Chew, and B.~G. Shivaprasad.
+\newblock The structure of a separating turbulent boundary layer. {P}art 1.
+  {M}ean flow and {R}eynolds stresses.
+\newblock \emph{J. {F}luid {M}ech.}, 113:\penalty0 23--51, 1981.
+
 \bibitem[Sykes(1980)]{Sykes80}
 R.~I. Sykes.
 \newblock An asymptotic theory of incompressible turbulent boundary-layer flow
@@ -199,5 +246,23 @@ T.~Wei and W.~W. Willmarth.
 A.~Wierschem, C.~Groh, I.~Rehberg, N.~Aksel, and C.~A. Kruelle.
 \newblock Ripple formation in weakly turbulent flow.
 \newblock \emph{Eur. {P}hys. {J}. {E}}, 25:\penalty0 213--221, 2008.
+
+\bibitem[Yue et~al.(2006)Yue, Lin, and Patel]{Yue06}
+W.~Yue, C.~Lin, and V.~C. Patel.
+\newblock Large-{E}ddy {S}imulation of {T}urbulent {F}low over a {F}ixed
+  {T}wo-{D}imensional {D}une.
+\newblock \emph{J. {H}ydraul. {E}ng.}, 132:\penalty0 643--651, 2006.
+
+\bibitem[Zilker and Hanratty(1979)]{Zilker79}
+D.~P. Zilker and T.~J. Hanratty.
+\newblock Influence of the amplitude of a solid wavy wall on a turbulent flow.
+  {P}art 2. {Se}parated flows.
+\newblock \emph{J. {F}luid {M}ech.}, 90:\penalty0 257--271, 1979.
+
+\bibitem[Zilker et~al.(1977)Zilker, Cook, and Hanratty]{Zilker77}
+D.~P. Zilker, G.~W. Cook, and T.~J. Hanratty.
+\newblock Influence of the amplitude of a solid wavy wall on a turbulent flow.
+  {P}art 1. {N}on-separated flows.
+\newblock \emph{J. {F}luid {M}ech.}, 82:\penalty0 29--51, 1977.
 
 \end{thebibliography}
