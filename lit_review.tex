@@ -240,7 +240,7 @@ At the separation point, a layer of high vorticity is ejected from the boundary 
 \section{Types of sedimentary bedforms}
 \label{sec:sed_bed}
 
-There are a variety of different types of sedimentary bedforms found in nature, with the diversity reflecting the hugely variable conditions under which erosion and sedimentation processes occur. Most generally, there are two types of environment in which bedforms can be found: subaerial; and subaqueous. Subaerial bedforms result from the flow of air over a granular medium, such as a desert, beach or a volcanic ash deposit. Subaqueous bedforms are created by the action of water, and can be found on river-beds, shallow coastel regions, or deeper continental shelves. Within this hierarchy, further variability in shape and size of bedform originates from spatial and temporal variations in flow-speed, flow-depth, particle size, particle density and local topography. Examples of different types of bedforms are shown in figure~\ref{fig:bedforms}.
+There are a variety of different types of sedimentary bedforms found in nature, with the diversity reflecting the hugely variable conditions under which erosion and sedimentation processes occur. Most generally, there are two types of environment in which bedforms can be found: subaerial; and subaqueous. Subaerial bedforms result from the flow of air over a granular medium, such as a desert, beach, snow depsoti or volcanic ash deposit. Subaqueous bedforms are created by the action of water, and can be found on river-beds, shallow coastel regions, or deeper continental shelves. Within this hierarchy, further variability in shape and size of bedform originates from spatial and temporal variations in flow-speed, flow-depth, particle size, particle density and local topography. Examples of different types of bedforms are shown in figure~\ref{fig:bedforms}.
 
 
 \begin{figure}
@@ -274,7 +274,10 @@ There are a variety of different types of sedimentary bedforms found in nature, 
     \caption{Examples of bedforms. a) A field of barchan dunes from Morocco. \citep{Duran11}. b) Transverse dune field in the East Taklamakan desert, China \citep{Gao15}. Subaqueous ripples in Zion National Park, USA \citep{Andreotti12}. d) Large subaqueous dunes in San Francisco Bay, USA \citep{Barnard06}.\label{fig:bedforms}}
 \end{figure}
 
-We will focus here on two-dimensional bedforms in unidirectional flow: ripples, dunes and antidunes. 
+The diverse range of environments and conditions in which bedforms exist, and the extensive variability in their morphologies means their classification has historically been inconsistent \citep{Ashley90}. The term `ripple' has typically been used to describe small structures of $O(1 \text{cm})$ with `dunes' used for larger deposits $ > O(10 \text{cm})$ \citep{Julien95}. However, these terms have often been used interhcangably in the literature. In an attempt to develop a formal classification, it has been noted that size distributions of both subaerial and subaqueous bedforms contain two distinct populations with different modes \citep{Lancaster88, Ashley90}, with the smaller group assigned as ripples, and the larger as dunes. This is a phenomenological classification founded in field observations. \citet{Andreotti12} used a mechanistic classification; ripples were defined as having a wavelength much smaller than the flow depth, and formed from an instability of the sediment surface. Dunes had a wavelength comparable to the flow depth, and formed from the merging of dunes, a process called pattern coarsening. Whether these definitions are equivalent remains unknown, but since we are here investigating bedforms from a mechanistic viewpoint, we will use the definition of \citet{Andreotti12}.
+
+The dunes and ripples considered here will all be transverse. Flow is directed in the x-direction and the bed geometry can be completely described by a curve in a vertical plane. 
+
 \section{Modes of sediment transport}
 \label{sec:sed_trans}
 
@@ -296,7 +299,9 @@ There is a finite limit to the amount of sediment a given flow can transport. Th
 T_{\text{sat}} \frac{\partial q(x,t)}{\partial t} + L_{\text{sat}} \frac{\partial q(x,t)}{\partial x} = q_{\text{sat}} - q(x,t) .
 \end{equation}
 
-This equation is valid for a unidirectional flow.
+Since the timescale of sediment transport is muh shorter than bed evolution, the first term can typically be neglected. As mentioned above, the expression for $L_{\text{sat}}$ depends on the mechanism of transport \citep{Andreotti12}. For suspended transport, the length corresponds to the distance a particle will travel before settling out, $L_{\text{sat}} \propto U H / V_{\text{fall}}$, where $U$ is the mean flow velocity, $V_{\text{fall}}$ is the settling velocity of the particle and $H$ is the depth of the flow \citep{Claudin11}. A similar principle can be used to determine the saturation length for bedload transport. Assuming the transport takes place within a layer of lengthscale $d$, the $L_{\text{sat}} \propto U d / V_{\text{fall}}$ \citep{Charru06}. For saltation, the lengthscale can be considered as the length needed for a particle to reach its equilibrium velocity \citep{Andreotti02}, for which it can be shown $L_{\text{sat}} \propto \rho_{\text{p}} d / \rho_{\text{f}}$. Despite the different transport mechanisms having different saturation lengths, $L_{\text{sat}}$ enters into the dynamics identically for all three cases, allowing the same methods to be used to study bedforms regardless of the transport mechanism.
+
+
 \section{Inititation of transverse structures}
 \label{sec:init}
 

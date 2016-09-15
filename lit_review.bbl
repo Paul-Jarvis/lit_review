@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{51}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,6 +29,12 @@ B.~Andreotti, A.~Fourri{\`e}re, F.~Ould-{K}addour, A.~B. Murray, and
 B.~Andreotti, P.~Claudin, O.~Devauchell, O.~Dur{\'a}n, and A.~Fourri{\`e}re.
 \newblock Bedforms in a turbulent stream: ripples, chevrons and antidunes.
 \newblock \emph{J. {F}luid {M}ech.}, 690:\penalty0 94--128, 2012.
+
+\bibitem[Ashley(1990)]{Ashley90}
+G.~M. Ashley.
+\newblock Classification of large-scale subaqueous bedforms: {A} new look at an
+  old problem.
+\newblock \emph{J. {S}ediment. {P}etrol.}, 60:\penalty0 160--172, 1990.
 
 \bibitem[Bagnold(1941)]{Bagnold41}
 R.~A. Bagnold.
@@ -68,6 +74,12 @@ E.~A. Caponi, B.~Fornberg, D.~D. Knight, J.~W. Mc{L}ean, P.~G. Saffman, and
 \newblock Calculations of laminar viscous flow over a moving wavy surface.
 \newblock \emph{J. {F}luid {M}ech.}, 124:\penalty0 247--262, 1982.
 
+\bibitem[Charru(2006)]{Charru06}
+F.~Charru.
+\newblock Selection of the ripple length on a granular bed sheared by a liquid
+  flow.
+\newblock \emph{Phys. {F}luids.}, 18, 2006.
+
 \bibitem[Charru and Franklin(2012)]{Charru12}
 F.~Charru and E.~M. Franklin.
 \newblock Subaqueous barchan dunes in turbulent shear flow. {P}art 2. {F}luid
@@ -95,6 +107,11 @@ F.~Charru, H.~Mouilleron, and O.~Eiff.
 F.~Charru, B.~Andreotti, and P.~Claudin.
 \newblock Sand {R}ipples and {D}unes.
 \newblock \emph{Annu. {R}ev. {F}luid. {M}ech.}, 45:\penalty0 469--493, 2013.
+
+\bibitem[Claudin et~al.(2011)Claudin, Charru, and Andreotti]{Claudin11}
+P.~Claudin, F.~Charru, and B.~Andreotti.
+\newblock Transport relaxation time and length scales in turbulent suspensions.
+\newblock \emph{J. {F}luid {M}ech.}, 671:\penalty0 491--506, 2011.
 
 \bibitem[Corrsin(1961)]{Corrsin61}
 S.~Corrsin.
@@ -166,6 +183,11 @@ P.~S. Jackson and J.~C.~R. Hunt.
 \newblock Turbulent wind flow over a low hill.
 \newblock \emph{Quart. {J}. {R}. {M}et. {S}oc.}, 101:\penalty0 929--955, 1975.
 
+\bibitem[Julien(1995)]{Julien95}
+P.~Y. Julien.
+\newblock \emph{Erosion and sedimentation}.
+\newblock Cambridge {U}niversity {P}ress, first edition, 1995.
+
 \bibitem[Kamphuis(1974)]{Kamphuis74}
 J.~W. Kamphuis.
 \newblock Determination of sand roughness for fixed beds.
@@ -186,6 +208,11 @@ K.~Kroy, G.~Sauermann, and H.~J. Herrmann.
 J.~D. Kuzan, T.~J. Hanratty, and R.~J. Adrian.
 \newblock Turbulent flows with incipient separation over solid waves.
 \newblock \emph{Exp. {F}luids}, 7:\penalty0 88--98, 1989.
+
+\bibitem[Lancaster(1988)]{Lancaster88}
+N.~Lancaster.
+\newblock Controls of eolian dune size and spacing.
+\newblock \emph{Geology}, 16:\penalty0 972--975, 1988.
 
 \bibitem[Langlois and Valance(2007)]{Langlois07}
 V.~Langlois and A.~Valance.
