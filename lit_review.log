@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.2)  15 SEP 2016 15:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.2)  11 OCT 2016 14:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -556,25 +556,39 @@ Package pdftex.def Info: ../figures/San_Fran.png used on input line 269.
  [7 <../figures/flow_separation.png>] [8 <../figures/barchan.png (PNG copy)> <.
 ./figures/transverse_dunes.png (PNG copy)> <../figures/subaqueous_ripples.png (
 PNG copy)> <../figures/San_Fran.png (PNG copy)>]
-[9] (./lit_review.bbl [10] [11] [12])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+[]\OT1/cmr/m/n/12 ([]Charru and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+\OT1/cmr/m/n/12 Mouilleron-
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 303--304
+[]\OT1/cmr/m/n/12 ([]Charru et al.[],
+ []
+
+[9] [10] (./lit_review.bbl [11] [12] [13])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
  (./lit_review.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 340.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
 Package rerunfilecheck Info: File `lit_review.out' has not changed.
 (rerunfilecheck)             Checksum: A358D804A1838307F9F69E33F87AB950;666.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 340.
  ) 
 Here is how much of TeX's memory you used:
- 9435 strings out of 494327
- 139570 string characters out of 6167770
- 255148 words of memory out of 5000000
- 12440 multiletter control sequences out of 15000+600000
+ 9456 strings out of 494327
+ 139916 string characters out of 6167770
+ 256148 words of memory out of 5000000
+ 12455 multiletter control sequences out of 15000+600000
  14253 words of font info for 51 fonts, out of 8000000 for 9000
  505 hyphenation exceptions out of 8191
- 36i,12n,58p,1345b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,17n,58p,1345b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
@@ -590,10 +604,10 @@ msl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on lit_review.pdf (13 pages, 547990 bytes).
+Output written on lit_review.pdf (14 pages, 551927 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

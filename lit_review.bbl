@@ -1,4 +1,4 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,6 +9,11 @@
 J.~Abrams and T.~J. Hanratty.
 \newblock Relaxation effects observed for turbulent flow over a wavy surface.
 \newblock \emph{J. {F}luid {M}ech.}, 151:\penalty0 443--455, 1985.
+
+\bibitem[Andreotti and Claudin(2013)]{Andreotti13}
+B.~Andreotti and P.~Claudin.
+\newblock Aeolian and subaqeuous bedforms in shear flows.
+\newblock \emph{Phil. {T}rans. {R}. {S}oc. {A}}, 371, 2013.
 
 \bibitem[Andreotti et~al.(2002)Andreotti, Claudin, and Douady]{Andreotti02}
 B.~Andreotti, P.~Claudin, and S.~Douady.
@@ -91,6 +96,12 @@ F.~Charru and E.~J. Hinch.
 \newblock `{P}hase diagram' of interfacial instabilities in a two-layer
   {C}ouette flow and mechanism of the long-wave instability.
 \newblock \emph{J. {F}luid {M}ech.}, 414:\penalty0 195--223, 2000.
+
+\bibitem[Charru and Hinch(2006)]{Charru06(2)}
+F.~Charru and E.~J. Hinch.
+\newblock Ripple formation on a particle bed sheared by a viscous liquid.
+  {P}art 1. {S}teady flow.
+\newblock \emph{J. {F}luid {M}ech.}, 550:\penalty0 111--121, 2006.
 
 \bibitem[Charru and Mouilleron-Arnould(2002)]{Charru02}
 F.~Charru and H.~Mouilleron-Arnould.
@@ -219,6 +230,16 @@ V.~Langlois and A.~Valance.
 \newblock Initiation and evolution of current ripples on a flat sand bed under
   turbulent water flow.
 \newblock \emph{Eur. {P}hys. {J}. {E}.}, 22:\penalty0 201--208, 2007.
+
+\bibitem[Leighton and Acrivos(1986)]{Leighton86}
+D.~Leighton and A.~Acrivos.
+\newblock Viscous resuspension.
+\newblock \emph{Chem. {E}ng. {S}ci.}, 41:\penalty0 1377--1384, 1986.
+
+\bibitem[Leighton and Acrivos(1987)]{Leighton87}
+D.~Leighton and A.~Acrivos.
+\newblock The shear-induced migration of particles in concentrated suspensions.
+\newblock \emph{J. {F}luid {M}ech.}, 181:\penalty0 415--439, 1987.
 
 \bibitem[Mouilleron et~al.(2009)Mouilleron, Charru, and Eiff]{Mouilleron09}
 H.~Mouilleron, F.~Charru, and O.~Eiff.

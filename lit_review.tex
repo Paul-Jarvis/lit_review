@@ -281,25 +281,49 @@ The dunes and ripples considered here will all be transverse. Flow is directed i
 \section{Modes of sediment transport}
 \label{sec:sed_trans}
 
-In order for an overlying fluid to displace any sediment, it is neccessary for the shear stress exerted on the bed surface to be sufficient to lift a particle up and over its neighbours. Hence, the lift force provided by the flow must be sufficient to overcome gravity. This balance is quantified through the Shields number
+In order for a flow to transport any sediment, it is neccessary for the for the shear stress exerted on the bed surface to be sufficient to lift a particle up and over its neighbours. Hence, the lift force provided by the flow must be sufficient to overcome gravity. This balance is quantified through the Shields number
 
 \begin{equation}
 \label{equ:Shields}
 \Theta = \frac{\tau}{(\rho_{\text{p}} - \rho_{\text{f}}) g d},
 \end{equation}
 
-where $\tau$ is the surface shear stress, $\rho_{\text{p}}$ and $\rho_{\text{f}}$ are the densities of the particles and fluid respectively, $g = 9.81$ m s$^{-2}$ is the acceleration due to gravity and $d$ is the particle diameter. Hence, there is some critical value of the Shields number at which motion becomes possible.
+where $\tau$ is the surface shear stress, $\rho_{\text{p}}$ and $\rho_{\text{f}}$ are the densities of the particles and fluid respectively, $g = 9.81$ m s$^{-2}$ is the acceleration due to gravity and $d$ is the particle diameter. Hence, there is some critical value of the Shields number at which motion becomes possible. 
 
-Broadly, there are three mechanisms describing how sediment can be transported by an overlying fluid \citep{Bagnold41}. For Shields numbers just above the threshold for motion, bedload transport (reptation) will occur, whereby particles slide and roll across the surface. With increasing flow velocity, these particles can be lift higher into the flow, and `hop' across the bed following ballistic trajectores, a process called saltation. Once the size of turbulent fluctuations in the vertical fluid velocity are comparable to the settling velocity of the particles, they can become suspended in the fluid and are transported as suspended load. For the purpose of the rest of this review, all sediment transport can be assumed to occur through reptation or saltation unless otherwise specified. 
+Broadly, there are three mechanisms describing how sediment can be transported by an overlying fluid \citep{Bagnold41}. For Shields numbers just above the threshold for motion, bedload transport (reptation, creep) will occur, whereby particles slide and roll across the surface. With increasing flow velocity, these particles can be lifted higher into the flow, and `hop' across the bed following ballistic trajectores, a process called saltation. Once the size of turbulent fluctuations in the vertical fluid velocity are comparable to the settling velocity of the particles, they can become suspended in the fluid and are transported as suspended load. Each of these processes has been studied and we'll briefly review them here.
 
-There is a finite limit to the amount of sediment a given flow can transport. This is quantified through the saturated sediment flux $q_{\text{sat}}$ \citep{Bagnold41, Owen64}. Therefore, there must also be a lengthscale $L_{\text{sat}}$ and/or timescale $T_{\text{sat}}$ over which this saturation can be achieved. Expressions for $q_{\text{sat}}$ scales depend on the mechanics of transport but a general partial differential equation for the sediment flux $q$ can be given as \citep{Charru13}
+\begin{table}
+\begin{center}
+\caption{Summary of sediment transport models. \label{tab:sed_trans}}
+\begin{tabular}{|p{0.2\textwidth}|p{0.15\textwidth}|p{0.25\textwidth}|p{0.2\textwidth}|}
+    \hline
+    Type of transport & Flow regime & Transport Law & Reference  \\
+    \hline
+    Bed-load & Viscous & $q \sim (\Theta - \Theta_{\text{c}})^{2}(\hat{\theta} - \hat{\theta_{\text{c}}})$ & \citep{Charru02} \\
+    Bed-load & Viscous & $q \sim \Theta(\Theta - \Theta_{\text{c}})$ & \citep{Charru04} \\
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Bedload transport can be modelled as a layer of mobile grains at the sediment surface. For viscous flow, this can be modelled as viscous resuspension \citep{Leighton86}, whereby the shear imposed on the bed by the flow initiates diffusion of particles upwards \citep{Leighton87}. Using this model, it is possible to derive a theoretical law for the particle flux that depends on the Shields number, and a correction due to the effect of gravity on a slope \citep{Charru02} (see table~\ref{tab:sed_trans}). Bedload transport has been experimentally studied in an annular flume and a process called armouring has been observed \citep{Charru04}. During this phenomenon, transported particles settle into gaps between stationary particles, increasing the packing fraction of the bed. This leads to a reduction in height of the bed and an increase in $\Theta_{\text{c}}$. The same experimentaly study also determined an empirical transport law different to that previously determined. 
+
+An alternative model for bedload transport involves finding explicit expressions for erosion and deposition rates \citep{Charru06(2)}. Use of this model shows that there exists length- and time-scales over which the sediment flux responds to changes in bed topography or flow conditions. An important feature of all sediment transporting flows is that there is a finite limit to the amount of sediment that can be transported by a given flow, quantified through the saturated sediment flux $q_{\text{sat}}$ \citep{Bagnold41, Owen64}. The physical origin for this saturation can be explained by realising that there is a negative feedback between the flow and entrainment. An increase in the flow velocity (and therefore bed shear stress) will increase entrainment, but the entrained grains themselves exert a resistive stress on the flow. This leads to a steady state where the rates of erosion and deposition balance each other \citep{Andreotti13}. The erosion-deposition model can be used to derive an expression descibing the behaviour of transient states displaced from this saturated state
 
 \begin{equation}
 \label{equ:sed_flux}
 T_{\text{sat}} \frac{\partial q(x,t)}{\partial t} + L_{\text{sat}} \frac{\partial q(x,t)}{\partial x} = q_{\text{sat}} - q(x,t) .
 \end{equation}
 
-Since the timescale of sediment transport is muh shorter than bed evolution, the first term can typically be neglected. As mentioned above, the expression for $L_{\text{sat}}$ depends on the mechanism of transport \citep{Andreotti12}. For suspended transport, the length corresponds to the distance a particle will travel before settling out, $L_{\text{sat}} \propto U H / V_{\text{fall}}$, where $U$ is the mean flow velocity, $V_{\text{fall}}$ is the settling velocity of the particle and $H$ is the depth of the flow \citep{Claudin11}. A similar principle can be used to determine the saturation length for bedload transport. Assuming the transport takes place within a layer of lengthscale $d$, the $L_{\text{sat}} \propto U d / V_{\text{fall}}$ \citep{Charru06}. For saltation, the lengthscale can be considered as the length needed for a particle to reach its equilibrium velocity \citep{Andreotti02}, for which it can be shown $L_{\text{sat}} \propto \rho_{\text{p}} d / \rho_{\text{f}}$. Despite the different transport mechanisms having different saturation lengths, $L_{\text{sat}}$ enters into the dynamics identically for all three cases, allowing the same methods to be used to study bedforms regardless of the transport mechanism.
+where $T_{\text{sat}}$ is the saturation time and $L_{\text{sat}}$ is the saturation length. Typically, the timescale of sediment transport is much shorter than changes to flow or bed topography, so the first term is typically neglected. The erosion-deposition model suggests that for bed-load transport in a viscous flow $L_{\text{sat}} \sim \rho_{\text{p}} d / \rho_{\text{f}}$ \citep{Charru06}. This is the drag-length, and is the distance over which an eroded particle is accelerated up to the flow speed. STILL NEED TO INCLUDE MOUILLERON ET. AL. 2009 AND THEN TALK ABOUT BED LOAD IN TURBULENT FLOW.
+
+
+THEN TALK ABOUT SALTATION AND THEN SUSPENSION
+
+
+
+
+Since the timescale of sediment transport is much shorter than bed evolution, the first term can typically be neglected. As mentioned above, the expression for $L_{\text{sat}}$ depends on the mechanism of transport \citep{Andreotti12}. For suspended transport, the length corresponds to the distance a particle will travel before settling out, $L_{\text{sat}} \propto U H / V_{\text{fall}}$, where $U$ is the mean flow velocity, $V_{\text{fall}}$ is the settling velocity of the particle and $H$ is the depth of the flow \citep{Claudin11}. A similar principle can be used to determine the saturation length for bedload transport. Assuming the transport takes place within a layer of lengthscale $d$, the $L_{\text{sat}} \propto U d / V_{\text{fall}}$ \citep{Charru06}. For saltation, the lengthscale can be considered as the length needed for a particle to reach its equilibrium velocity \citep{Andreotti02}, for which it can be shown $L_{\text{sat}} \propto \rho_{\text{p}} d / \rho_{\text{f}}$. Despite the different transport mechanisms having different saturation lengths, $L_{\text{sat}}$ enters into the dynamics identically for all three cases, allowing the same methods to be used to study bedforms regardless of the transport mechanism.
 
 
 \section{Inititation of transverse structures}
